@@ -41,7 +41,7 @@ out.write(a)
 out.flush()
 
 out.close()*/
-WS.delay(3)
+WS.delay(2)
 
 WS.verifyResponseStatusCode(response, 200)
 
