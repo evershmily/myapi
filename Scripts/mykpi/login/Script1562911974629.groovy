@@ -41,7 +41,7 @@ out.write(a)
 out.flush()
 
 out.close()*/
-not_run: WS.delay(10)
+WS.delay(3)
 
 WS.verifyResponseStatusCode(response, 200)
 
