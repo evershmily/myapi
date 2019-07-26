@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67eeb4e8-536a-4bae-9508-1aa662d8ba1a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('id').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a183fec2-08e2-4e89-b42b-850e58d2f4be</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('newex').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>ed2f2186-1b58-43f7-becc-9c18a0a0fd32</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
