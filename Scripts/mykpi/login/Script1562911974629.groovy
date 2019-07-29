@@ -20,10 +20,6 @@ import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.webservice.verification.WSResponseManager as WSResponseManager
 import groovy.json.JsonSlurper as JsonSlurper
 
-not_run: response = WS.sendRequest(findTestObject('login'))
-
-not_run: WS.verifyResponseStatusCode(response, 200)
-
 response = WS.sendRequest(findTestObject('inputid', [('id') : id]))
 
 def cookie = response.getHeaderFields()
@@ -50,9 +46,10 @@ response = WS.sendRequest(findTestObject('New Request', [('cookie') : a]))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'd.assessmentTime.id', '68')
+WS.verifyElementPropertyValue(response, 'd.assessmentTime.id', '70')
 
-response = WS.sendRequest(findTestObject('kkk', [('cookie') : findTestData('cookie (1)').getValue(1, 1), ('name') : name]))
+//response = WS.sendRequest(findTestObject('kkk', [('cookie') : findTestData('cookie (1)').getValue(1, 1), ('name') : name]))
+response = WS.sendRequest(findTestObject('kkk', [('cookie') : a]))
 
 WS.verifyElementPropertyValue(response, 'd.userName', name)
 
