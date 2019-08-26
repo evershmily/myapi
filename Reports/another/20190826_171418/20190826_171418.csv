@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+another,,,,2019-08-26 17:14:37,2019-08-26 17:14:43,6.254s,INCOMPLETE
+,,,,,,,
+Test Cases/mykpi/another,,,,2019-08-26 17:14:38,2019-08-26 17:14:43,5.268s,FAILED
+"response = sendRequest(findTestObject(""kkk""))",,,,2019-08-26 17:14:38,2019-08-26 17:14:41,2.397s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-26 17:14:41,2019-08-26 17:14:41,0.014s,PASSED
+"verifyElementPropertyValue(response, ""d.userName"", findTestData(""newex"").getValue(2, 1))",,,,2019-08-26 17:14:41,2019-08-26 17:14:43,2.383s,FAILED
