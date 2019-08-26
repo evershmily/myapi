@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+new222,,,,2019-08-26 16:54:21,2019-08-26 16:54:25,3.594s,INCOMPLETE
+,,,,,,,
+Test Cases/mykpi/newbran22,,,,2019-08-26 16:54:21,2019-08-26 16:54:25,3.189s,FAILED
+"response = sendRequest(findTestObject(""New Request""))",,,,2019-08-26 16:54:22,2019-08-26 16:54:24,2.421s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-26 16:54:24,2019-08-26 16:54:24,0.016s,PASSED
+"verifyElementPropertyValue(response, ""d.assessmentTime.id"", ""66"")",,,,2019-08-26 16:54:24,2019-08-26 16:54:25,0.363s,FAILED
