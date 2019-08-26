@@ -19,3 +19,5 @@ WS.verifyResponseStatusCode(response, 200)
 
 WS.verifyElementPropertyValue(response, 'd.userName', findTestData('newex').getValue(2, 1))
 
+WS.delay(3)
+
