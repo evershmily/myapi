@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AE,,,,2019-08-16 10:26:24,2019-08-16 10:26:26,2.457s,INCOMPLETE
+,,,,,,,
+Test Cases/mykpi/AE,,,,2019-08-16 10:26:24,2019-08-16 10:26:26,2.066s,FAILED
+"response = sendRequest(findTestObject(""AE""))",,,,2019-08-16 10:26:25,2019-08-16 10:26:26,1.599s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 10:26:26,2019-08-16 10:26:26,0.050s,FAILED

@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1,,,,2019-08-16 09:58:54,2019-08-16 09:59:07,13.955s,INCOMPLETE
+,,,,,,,
+Test Cases/mykpi/login,,,,2019-08-16 09:58:54,2019-08-16 09:59:00,6.367s,FAILED
+"response = sendRequest(findTestObject(""inputid"", [""id"":id]))",,,,2019-08-16 09:58:55,2019-08-16 09:58:58,2.853s,PASSED
+cookie = response.getHeaderFields(),,,,2019-08-16 09:58:58,2019-08-16 09:58:58,0.023s,PASSED
+"a = get(""Set-Cookie"")[0].split("";"")[0]",,,,2019-08-16 09:58:58,2019-08-16 09:58:58,0.129s,PASSED
+println(a),,,,2019-08-16 09:58:58,2019-08-16 09:58:58,0.005s,PASSED
+delay(2),,,,2019-08-16 09:58:58,2019-08-16 09:59:00,2.062s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:00,2019-08-16 09:59:00,0.061s,PASSED
+"response = sendRequest(findTestObject(""New Request"", [""cookie"":a]))",,,,2019-08-16 09:59:00,2019-08-16 09:59:00,0.109s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:00,2019-08-16 09:59:00,0.004s,PASSED
+"verifyElementPropertyValue(response, ""d.assessmentTime.id"", ""70"")",,,,2019-08-16 09:59:00,2019-08-16 09:59:00,0.249s,FAILED
+,,,,,,,
+Test Cases/mykpi/login,,,,2019-08-16 09:59:01,2019-08-16 09:59:03,2.406s,FAILED
+"response = sendRequest(findTestObject(""inputid"", [""id"":id]))",,,,2019-08-16 09:59:01,2019-08-16 09:59:01,0.075s,PASSED
+cookie = response.getHeaderFields(),,,,2019-08-16 09:59:01,2019-08-16 09:59:01,0.000s,PASSED
+"a = get(""Set-Cookie"")[0].split("";"")[0]",,,,2019-08-16 09:59:01,2019-08-16 09:59:01,0.002s,PASSED
+println(a),,,,2019-08-16 09:59:01,2019-08-16 09:59:01,0.001s,PASSED
+delay(2),,,,2019-08-16 09:59:01,2019-08-16 09:59:03,2.004s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.021s,PASSED
+"response = sendRequest(findTestObject(""New Request"", [""cookie"":a]))",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.144s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.014s,PASSED
+"verifyElementPropertyValue(response, ""d.assessmentTime.id"", ""70"")",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.043s,FAILED
+,,,,,,,
+Test Cases/mykpi/login,,,,2019-08-16 09:59:03,2019-08-16 09:59:05,2.329s,FAILED
+"response = sendRequest(findTestObject(""inputid"", [""id"":id]))",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.056s,PASSED
+cookie = response.getHeaderFields(),,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.000s,PASSED
+"a = get(""Set-Cookie"")[0].split("";"")[0]",,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.009s,PASSED
+println(a),,,,2019-08-16 09:59:03,2019-08-16 09:59:03,0.002s,PASSED
+delay(2),,,,2019-08-16 09:59:03,2019-08-16 09:59:05,2.024s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.010s,PASSED
+"response = sendRequest(findTestObject(""New Request"", [""cookie"":a]))",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.090s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.002s,PASSED
+"verifyElementPropertyValue(response, ""d.assessmentTime.id"", ""70"")",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.039s,FAILED
+,,,,,,,
+Test Cases/mykpi/login,,,,2019-08-16 09:59:05,2019-08-16 09:59:07,2.174s,FAILED
+"response = sendRequest(findTestObject(""inputid"", [""id"":id]))",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.040s,PASSED
+cookie = response.getHeaderFields(),,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.001s,PASSED
+"a = get(""Set-Cookie"")[0].split("";"")[0]",,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.000s,PASSED
+println(a),,,,2019-08-16 09:59:05,2019-08-16 09:59:05,0.001s,PASSED
+delay(2),,,,2019-08-16 09:59:05,2019-08-16 09:59:07,2.003s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:07,2019-08-16 09:59:07,0.002s,PASSED
+"response = sendRequest(findTestObject(""New Request"", [""cookie"":a]))",,,,2019-08-16 09:59:07,2019-08-16 09:59:07,0.071s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-08-16 09:59:07,2019-08-16 09:59:07,0.007s,PASSED
+"verifyElementPropertyValue(response, ""d.assessmentTime.id"", ""70"")",,,,2019-08-16 09:59:07,2019-08-16 09:59:07,0.021s,FAILED
