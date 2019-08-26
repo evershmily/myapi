@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('AE'))
+response = WS.sendRequest(findTestObject('kkk', [('cookie') : findTestData('cookie (1)').getValue(1, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
 
